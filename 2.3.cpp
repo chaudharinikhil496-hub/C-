@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+namespace Physics {
+    string subject = "Physics";
+}
+
+namespace Chemistry {
+    string subject = "Chemistry";
+}
+
+int main() {
+    cout << Physics::subject << "\n" << Chemistry::subject;
+}
